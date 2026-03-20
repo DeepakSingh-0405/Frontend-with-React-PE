@@ -13,7 +13,7 @@ const products=[
   {
     id:1,
     name:"Laptop",
-    price:56000,
+    price:56000, 
     image:""
   },
   {
