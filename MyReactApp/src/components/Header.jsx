@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='m-5 font-bold text-2xl'>News App</div>
   )
 }
 

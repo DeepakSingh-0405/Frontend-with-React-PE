@@ -1,5 +1,5 @@
 
-export default function Card({ url,title, description, handleClick }) {
+export default function Card({ url,title, description,author }) {
         return (
             <div className="max-w-xs rounded-md shadow-md bg-black text-gray-100">
                 <img
@@ -17,9 +17,9 @@ export default function Card({ url,title, description, handleClick }) {
                     <button
                         type="button"
                         className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-gray-800 text-gray-200"
-                        onClick={handleClick}
+                        
                     >
-                        "Next"
+                        Author: {author}
                     </button>
                 </div>
             </div>
